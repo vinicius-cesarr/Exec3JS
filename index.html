@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-primary p-5" id="corpo">
+    <nav class="p-5 container">
+        <h1 class="text-center display-4 fs-3 pb-3 text-white">
+            Contador
+        </h1>
+        <div class="bg-light rounded">
+            <div id="dados">
+                <div class="display-4 fs-5 px-4 py-3">
+                    Inicio: <input type="number" name="inicio" id="inicio" class="form-control">
+                </div>
+                <div class="display-4 fs-5 px-4 py-3">
+                    Fim: <input type="number" name="fim" id="fim" class="form-control">
+                </div>
+                <div class="display-4 fs-5 px-4 py-3">
+                    Razao: <input type="number" name="razao" id="razao" class="form-control">
+                </div>
+                <div class="px-4 py-3 justify-content-center d-flex">
+                    <button onclick="contar()" class="rounded">
+                        Contar
+                    </button>
+                </div>
+            </div>
+            <div id="res" class="p-5">
+                <p>
+                    Preparando a contagem...
+                </p>
+            </div>
+        </div>
+        <h1 class="display-4 fs-3 text-center text-white pt-4">
+            &copy;Exercícios Vinicius Cesar 
+        </h1>
+    </nav>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
